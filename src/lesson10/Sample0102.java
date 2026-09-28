@@ -16,8 +16,8 @@ public class Sample0102 {
         
         System.out.println("--------------------");
         
-      for (int i = 0; i < 3; i++) {
-    	  System.out.println(notices[i]);
-      }
+        for (int i = 0; i < 3; i++) {
+        	System.out.println(notices[i]);
+        }
 	}
 }
