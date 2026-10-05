@@ -32,7 +32,9 @@ public class MemberSample {
 
 		// 会員を1人ずつ取り出して表示する
 		for (Member member : members) {
-			System.out.println(member.name + "：" + member.calculateAge() + "歳");
+			System.out.println(
+					member.name + "：" + 
+					member.calculateAge() + "歳");
 		}
 	}
 }
