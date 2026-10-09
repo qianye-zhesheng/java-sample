@@ -6,7 +6,7 @@ public class Sample01 {
 
 		Member yamada = new Member("山田太郎", 2000);
 
-		int age = yamada.calculateAge(2026);
+		int age = yamada.calculateAge();
 		System.out.println(age);
 
 		yamada.display(2026);

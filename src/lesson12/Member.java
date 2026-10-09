@@ -10,12 +10,12 @@ public class Member {
 		this.birthYear = birthYear;
 	}
 
-	public int calculateAge(int currentYear) {
-		return currentYear - birthYear;
+	public int calculateAge() {
+		return 2026 - birthYear;
 	}
 
 	public void display(int currentYear) {
 		System.out.println("会員名：" + name);
-		System.out.println("年齢：" + calculateAge(currentYear) + "歳");
+		System.out.println("生まれた年" + birthYear + "歳");
 	}
 }
