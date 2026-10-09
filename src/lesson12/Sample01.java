@@ -9,7 +9,7 @@ public class Sample01 {
 		int age = yamada.calculateAge();
 		System.out.println(age);
 
-		yamada.display(2026);
+		yamada.display();
 
 	}
 }

@@ -14,8 +14,8 @@ public class Member {
 		return 2026 - birthYear;
 	}
 
-	public void display(int currentYear) {
+	public void display() {
 		System.out.println("会員名：" + name);
-		System.out.println("生まれた年" + birthYear + "歳");
+		System.out.println("生まれた年:" + birthYear);
 	}
 }
