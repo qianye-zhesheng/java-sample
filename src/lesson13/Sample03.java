@@ -16,7 +16,8 @@ public class Sample03 {
 		members[2] = null;
 
 
-		System.out.println("--配列のlength: " + members.length);
+		System.out.println("--配列のlength: " 
+				+ members.length);
 
 		for (String member : members) {
 			System.out.println(member);
@@ -30,7 +31,8 @@ public class Sample03 {
 		
 		memberList.remove("鈴木花子");
 
-		System.out.println("--ArrayListのsize() : " + memberList.size());
+		System.out.println("--ArrayListのsize() : " 
+				+ memberList.size());
 
 		for (String member : memberList) {
 			System.out.println(member);

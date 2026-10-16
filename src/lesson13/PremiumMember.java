@@ -1,6 +1,6 @@
 package lesson13;
 
-public class PremiumMember extends Member{
+public class PremiumMember extends Member {
 	
 	
 	public PremiumMember(String name, int birthYear) {
