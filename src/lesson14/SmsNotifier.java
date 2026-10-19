@@ -1,0 +1,10 @@
+package lesson14;
+
+public class SmsNotifier implements Notifier {
+
+	@Override
+	public void send(String message) {
+		System.out.println("SMS送信:" + message);
+	}
+
+}
