@@ -3,7 +3,7 @@ package lesson10;
 public class Sample0201 {
 
 	public static void main(String[] args) {
-        String name = "田中太郎";
+        String name = "山田太郎";
         int age = 25;
 
         System.out.println("氏名：" + name);
