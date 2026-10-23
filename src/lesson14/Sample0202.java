@@ -1,6 +1,6 @@
 package lesson14;
 
-public class Sample02 {
+public class Sample0202 {
 
 	public static void main(String[] args) {
 		String inputAge = "35a";
