@@ -9,7 +9,7 @@ public class Sample0202 {
 			int age = Integer.parseInt(inputAge);
 			System.out.println("年齢:" + age);
 
-		} catch (NumberFormatException e) {
+		} catch (NumberFormatException error) {
 			System.out.println("年齢は整数で入力してください");
 		}
 
