@@ -1,4 +1,4 @@
-package lesson15.q03;
+package lesson15.q02;
 
 public class Question03 {
 
